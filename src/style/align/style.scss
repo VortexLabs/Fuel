@@ -1,0 +1,17 @@
+
+*{
+	box-sizing: border-box;
+}
+
+
+.v-center{
+	text-align: center;
+	margin: auto auto
+}
+
+.v-center-vert{
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+

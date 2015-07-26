@@ -1,0 +1,28 @@
+.v-overlay{
+	position: fixed;
+	z-index: 10;
+}
+
+.v-overlay-dark{
+	top: 0;
+	left: 0;
+	width: 200vw;
+	height: 200vh;
+	background-color: black;
+	opacity: 0.4;
+	z-index: -10;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.v-overlay-light{
+	top: 0;
+	left: 0;
+	width: 200vw;
+	height: 200vh;
+	background-color: white;
+	opacity: 0.2;
+	z-index: -10;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}

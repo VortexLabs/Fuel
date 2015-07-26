@@ -1,0 +1,118 @@
+
+.v-row{
+	width: 100%;
+
+}
+
+.v-row .v-col-1{
+	width: 10%;
+	float: left !important;
+
+}
+
+.v-row .v-col-2{
+	width: 20%;
+	float: left !important;
+
+}
+
+.v-row .v-col-3{
+	width: 30%;
+	float: left !important;
+
+}
+
+.v-row .v-col-4{
+	width: 40%;
+	float: left !important;
+
+}
+
+.v-row .v-col-5{
+	width: 50%;
+	float: left !important;
+
+}
+
+.v-row .v-col-6{
+	width: 60%;
+	float: left !important;
+
+}
+
+.v-row .v-col-7{
+	width: 70%;
+	float: left !important;
+
+}
+
+.v-row .v-col-8{
+	width: 80%;
+	float: left !important;
+
+}
+
+.v-row .v-col-9{
+	width: 90%;
+	float: left !important;
+
+}
+
+.v-row .v-col-10{
+	width: 100%;
+	float: left !important;
+
+}
+
+/*MOBILE STACKING*/
+@media screen and (max-width: 750px){
+	.v-row .v-col-1{
+		width: 100%;
+		float: left;
+	}
+
+	.v-row .v-col-2{
+		width: 100%;
+		float: left;
+	}
+
+	.v-row .v-col-3{
+		width: 100%;
+		float: left;
+	}
+
+	.v-row .v-col-4{
+		width: 100%;
+		float: left;
+	}
+
+	.v-row .v-col-5{
+		width: 100%;
+		float: left;
+	}
+
+	.v-row .v-col-6{
+		width: 100%;
+		float: left;
+	}
+
+	.v-row .v-col-7{
+		width: 100%;
+		float: left;
+	}
+
+	.v-row .v-col-8{
+		width: 100%;
+		float: left;
+	}
+
+	.v-row .v-col-9{
+		width: 100%;
+		float: left;
+	}
+
+	.v-row .v-col-10{
+		width: 100%;
+		float: left;
+	}
+}

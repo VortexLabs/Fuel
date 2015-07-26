@@ -1,0 +1,272 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+$white: #FFFFFF;
+$orange: #F6851F;
+$navRed: #FF7200;
+$text: #666666;
+$bar: #F7F7F7;
+$orangeBorder: #EEEEEE;
+
+
+html, body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden
+}
+
+body{
+	background-color: $white;
+	font-family: "sofia-pro", Lato
+}
+
+.banner{
+	background-image: url('/img/vancouver.jpg');
+	width: 100vw;
+	height: 500px;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	text-align: center;
+
+
+	h1{
+		font-weight: 900;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		color: white;
+		font-size: 60px;
+		font-family: "sofia-pro", Lato;
+	
+	}
+
+	h3{
+		text-align: center;
+		color: $orange;
+		font-size: 18px;
+		font-weight: 700;
+		margin-top: 25px;
+		font-family: "sofia-pro", Lato;
+		
+	}
+
+	button{
+		background-color: rgba(1,1,1,0);
+		border: 1px solid white;
+		padding: 15px 30px 15px 30px;
+		color: white;
+		font-weight: 300;
+		margin-top: 40px;
+		font-family: "sofia-pro", Lato;
+	}
+
+	button:hover{
+		background-color: rgba(255,255,255,0.4);
+		
+	}
+
+
+}
+
+.banner-info{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 240px;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);   
+    transition: all 0.5s ease-in;
+}
+
+.fade-out{
+	opacity: 0
+}
+
+
+.nav{
+	margin-top: 500px;
+	height: 80px;
+	width: 100vw;
+	background-color: white;
+	z-index: 10;
+	position: relative;
+	border-top: 4px solid $orange;
+	box-shadow: 0px 1px 5px #888888;
+
+	.logo{
+		position: absolute;
+		margin-top: -58px;
+		text-align: center;
+		left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	}
+
+	ul{
+		margin: auto auto;
+		text-align: center;
+		list-style-type: none;
+		margin-top: 29px;
+		font-weight: 900;
+		li{
+
+			display: inline;
+			text-decoration: none;
+			padding: 30px;
+			font-family: "sofia-pro", Lato;
+			color: $text;
+		}
+
+		.seperate{
+			margin-left: 160px
+		}
+	}
+}
+
+.nav-mobile{
+	height: 40px;
+	width: 100vw;
+	background-color: white;
+	position: relative;
+	text-align: center;
+	font-weight: 900;
+	font-size: 10px;
+	display: block;
+	ul{
+		list-style-type: none;
+		position: relative;
+		width: 100vw;
+		background-color: white;
+		padding: 15px 0 0 0;
+		li{
+			display: inline;
+			padding: 15px;
+			font-family: "sofia-pro", Lato;
+			color: $text;
+		}
+	}
+}
+.content{
+	width: 100vw;
+	height: 10000px;
+	position: relative;
+	background-color: white;
+	
+
+	h1{
+		position: relative;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		color: $text;
+		font-weight: 700;
+		font-size: 30px;
+		font-family: "sofia-pro", Lato;
+	}
+
+	.underline{
+		height: 2px;
+		background-color: $text;
+		width: 130px;
+		margin: auto auto;
+		display: block;
+		margin-top: 15px
+	}
+
+	p{
+		font-weight: 300;
+		color: $text;
+		font-family: "sofia-pro", Lato
+	}
+
+	.portfolio{
+
+	}
+
+	.about-us{
+		margin-top: 75px;
+		img{
+			width: 100%;
+			box-shadow: 0 10px 10px -10px gray;
+
+		}
+
+		h2{
+			font-family: "sofia-pro", Lato;
+			color: $text;
+			font-weight: 500;
+			font-size: 18px;
+			margin: 0;
+			padding: 0;
+			display: inline;
+		}
+
+		.text-bar{
+			display: inline-block;
+			background-color: #ededed;
+			height: 7px;
+			width: 42%;
+			text-align: center;
+			margin-left: 22px;
+			margin-bottom: 4px
+		}
+
+		p{
+			margin-top: 5px
+		}
+
+		button{
+			border: 1px solid $navRed;
+			color: $orange;
+			background-color: white;
+			border-radius: 3px;
+			padding: 10px 30px 10px 30px;
+			margin-top: 18px
+		}
+
+		button:hover{
+			background-color: $navRed;
+			color: white;
+		}
+
+		@media (max-width: 800px) {
+			.text-bar{
+				display: none
+			}
+
+			img{
+				padding-bottom: 20px
+			}
+
+
+		}
+	}
+	
+}
+
+
+.grid{
+	margin-top: 50px;
+	.cube{
+		transition: opacity 0.5s ease-in;
+		height: 300px;
+		opacity: 0
+	}
+
+	.cube-red{
+		background-color: red;
+	}
+
+	.cube-green{
+		background-color: green;
+	}
+}
+
+
+
+
+
+

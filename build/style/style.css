@@ -1,0 +1,302 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden; }
+
+body {
+  background-color: #FFFFFF;
+  font-family: "sofia-pro", Lato; }
+
+.banner {
+  background-image: url("/img/vancouver.jpg");
+  width: 100vw;
+  height: 500px;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  text-align: center; }
+  .banner h1 {
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: "sofia-pro", Lato; }
+  .banner h3 {
+    text-align: center;
+    color: #F6851F;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+    font-family: "sofia-pro", Lato; }
+  .banner button {
+    background-color: rgba(1, 1, 1, 0);
+    border: 1px solid white;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    font-weight: 300;
+    margin-top: 40px;
+    font-family: "sofia-pro", Lato; }
+  .banner button:hover {
+    background-color: rgba(255, 255, 255, 0.4); }
+
+.banner-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 240px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease-in; }
+
+.fade-out {
+  opacity: 0; }
+
+.nav {
+  margin-top: 500px;
+  height: 80px;
+  width: 100vw;
+  background-color: white;
+  z-index: 10;
+  position: relative;
+  border-top: 4px solid #F6851F;
+  box-shadow: 0px 1px 5px #888888; }
+  .nav .logo {
+    position: absolute;
+    margin-top: -58px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto; }
+  .nav ul {
+    margin: auto auto;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 29px;
+    font-weight: 900; }
+    .nav ul li {
+      display: inline;
+      text-decoration: none;
+      padding: 30px;
+      font-family: "sofia-pro", Lato;
+      color: #666666; }
+    .nav ul .seperate {
+      margin-left: 160px; }
+
+.nav-mobile {
+  height: 40px;
+  width: 100vw;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  font-weight: 900;
+  font-size: 10px;
+  display: block; }
+  .nav-mobile ul {
+    list-style-type: none;
+    position: relative;
+    width: 100vw;
+    background-color: white;
+    padding: 15px 0 0 0; }
+    .nav-mobile ul li {
+      display: inline;
+      padding: 15px;
+      font-family: "sofia-pro", Lato;
+      color: #666666; }
+
+.content {
+  width: 100vw;
+  height: 10000px;
+  position: relative;
+  background-color: white; }
+  .content h1 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #666666;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "sofia-pro", Lato; }
+  .content .underline {
+    height: 2px;
+    background-color: #666666;
+    width: 130px;
+    margin: auto auto;
+    display: block;
+    margin-top: 15px; }
+  .content p {
+    font-weight: 300;
+    color: #666666;
+    font-family: "sofia-pro", Lato; }
+  .content .about-us {
+    margin-top: 75px; }
+    .content .about-us img {
+      width: 100%;
+      box-shadow: 0 10px 10px -10px gray; }
+    .content .about-us h2 {
+      font-family: "sofia-pro", Lato;
+      color: #666666;
+      font-weight: 500;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      display: inline; }
+    .content .about-us .text-bar {
+      display: inline-block;
+      background-color: #ededed;
+      height: 7px;
+      width: 42%;
+      text-align: center;
+      margin-left: 22px;
+      margin-bottom: 4px; }
+    .content .about-us p {
+      margin-top: 5px; }
+    .content .about-us button {
+      border: 1px solid #FF7200;
+      color: #F6851F;
+      background-color: white;
+      border-radius: 3px;
+      padding: 10px 30px 10px 30px;
+      margin-top: 18px; }
+    .content .about-us button:hover {
+      background-color: #FF7200;
+      color: white; }
+    @media (max-width: 800px) {
+      .content .about-us .text-bar {
+        display: none; }
+      .content .about-us img {
+        padding-bottom: 20px; } }
+
+.grid {
+  margin-top: 50px; }
+  .grid .cube {
+    transition: opacity 0.5s ease-in;
+    height: 300px;
+    opacity: 0; }
+  .grid .cube-red {
+    background-color: red; }
+  .grid .cube-green {
+    background-color: green; }
+
+* {
+  box-sizing: border-box; }
+
+.v-center {
+  text-align: center;
+  margin: auto auto; }
+
+.v-center-vert {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.v-overlay {
+  position: fixed;
+  z-index: 10; }
+
+.v-overlay-dark {
+  top: 0;
+  left: 0;
+  width: 200vw;
+  height: 200vh;
+  background-color: black;
+  opacity: 0.4;
+  z-index: -10;
+  transform: translate(-50%, -50%);
+  position: absolute; }
+
+.v-overlay-light {
+  top: 0;
+  left: 0;
+  width: 200vw;
+  height: 200vh;
+  background-color: white;
+  opacity: 0.2;
+  z-index: -10;
+  transform: translate(-50%, -50%);
+  position: absolute; }
+
+.v-row {
+  width: 100%; }
+
+.v-row .v-col-1 {
+  width: 10%;
+  float: left !important; }
+
+.v-row .v-col-2 {
+  width: 20%;
+  float: left !important; }
+
+.v-row .v-col-3 {
+  width: 30%;
+  float: left !important; }
+
+.v-row .v-col-4 {
+  width: 40%;
+  float: left !important; }
+
+.v-row .v-col-5 {
+  width: 50%;
+  float: left !important; }
+
+.v-row .v-col-6 {
+  width: 60%;
+  float: left !important; }
+
+.v-row .v-col-7 {
+  width: 70%;
+  float: left !important; }
+
+.v-row .v-col-8 {
+  width: 80%;
+  float: left !important; }
+
+.v-row .v-col-9 {
+  width: 90%;
+  float: left !important; }
+
+.v-row .v-col-10 {
+  width: 100%;
+  float: left !important; }
+
+/*MOBILE STACKING*/
+@media screen and (max-width: 750px) {
+  .v-row .v-col-1 {
+    width: 100%;
+    float: left; }
+  .v-row .v-col-2 {
+    width: 100%;
+    float: left; }
+  .v-row .v-col-3 {
+    width: 100%;
+    float: left; }
+  .v-row .v-col-4 {
+    width: 100%;
+    float: left; }
+  .v-row .v-col-5 {
+    width: 100%;
+    float: left; }
+  .v-row .v-col-6 {
+    width: 100%;
+    float: left; }
+  .v-row .v-col-7 {
+    width: 100%;
+    float: left; }
+  .v-row .v-col-8 {
+    width: 100%;
+    float: left; }
+  .v-row .v-col-9 {
+    width: 100%;
+    float: left; }
+  .v-row .v-col-10 {
+    width: 100%;
+    float: left; } }
+
+.v-sticky-footer {
+  clear: both; }

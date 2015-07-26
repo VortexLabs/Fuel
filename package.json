@@ -1,0 +1,17 @@
+{
+  "name": "Vortex-Framwork",
+  "version": "0.0.1",
+  "description": "description",
+  "dependencies": {
+    "gulp-sass": "2.0.4",
+    "gulp-browserify": "0.5.1",
+    "browser-sync": "2.8.0",
+    "gulp": "3.9.0",
+    "gulp-uglify": "1.2.0",
+    "gulp-concat": "2.6.0",
+    "gulp-serve": "1.0.0",
+    "gulp-auto-reload": "0.1.0",
+    "scrollmagic": "2.0.5",
+    "waypoints": "3.1.1"
+  }
+}
