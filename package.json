@@ -12,6 +12,7 @@
     "gulp-serve": "1.0.0",
     "gulp-auto-reload": "0.1.0",
     "scrollmagic": "2.0.5",
-    "waypoints": "3.1.1"
+    "waypoints": "3.1.1",
+    "slider-pro": "1.2.1"
   }
 }
