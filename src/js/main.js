@@ -1,6 +1,6 @@
 require('./sticky-footer/sticky-footer.js');
 require('./overlay/overlay.js');
-
+require('smoothscroll');
 
 window.onload = function(){
 	if(document.getElementsByClassName('v-adjust-height').length > 0)

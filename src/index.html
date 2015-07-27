@@ -9,7 +9,8 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 	</head>
 	<body>
@@ -19,16 +20,16 @@
 					<div class="banner-info" id='banner-info'>
 						<h1>WE ARE FUEL</h1>
 						<h3>GRAPHIC DESIGN • WEB DESIGN</h3>
-						<button id='trigger'>MORE ABOUT US</button>
+						<button onclick="smoothScroll(document.getElementById('about-us'))" id='trigger'>MORE ABOUT US</button>
 					</div>
 				</div>
 				<div class="nav" id='nav'>
 					<img src="/img/logo.png" alt="Fuel Logo" class='logo' width='90'>
 					<ul id='nav-list'>
-						<li>ABOUT US</li>
-						<li>PORTFOLIO</li>
-						<li class='seperate'>SERVICES</li>
-						<li>CONTACT US</li>
+						<li onclick="smoothScroll(document.getElementById('about-us'))">ABOUT US</li>
+						<li onclick="smoothScroll(document.getElementById('portfolio'))">PORTFOLIO</li>
+						<li  onclick="smoothScroll(document.getElementById('services'))" class='seperate'>SERVICES</li>
+						<li  onclick="smoothScroll(document.getElementById('contact-us'))">CONTACT US</li>
 					</ul>
 				</div>
 				<!--<div class='nav-mobile' id='nav-mobile'>
@@ -41,7 +42,7 @@
 				</div>-->
 				<div class="content">
 					<br><br><br><br>
-					<h1>ABOUT US</h1>
+					<h1  id='about-us'>ABOUT US</h1>
 					<span class="underline"></span>
 
 
@@ -59,7 +60,7 @@
 									We know how important your business and image are to you and we are here to help you. We are not just designers, we are proud business owners and avid consumers of local and international culture. <br><br> Let our multitalented team help you fuel your journey to the top. <br><br> Let us fuel your quest to reach for the stars.
 								</p>
 
-								<button>CONTACT US</button>
+								<button onclick="smoothScroll(document.getElementById('contact-us'))">CONTACT US</button>
 
 							</div>
 						</div>
@@ -71,7 +72,7 @@
 						
 
 						<br><br><br><br><br><br><br><br>
-						<h1>PORTFOLIO</h1>
+						<h1 id='portfolio'>PORTFOLIO</h1>
 						<span class="underline"></span>
 
 						<br>
@@ -86,7 +87,7 @@
 										</div>
 										<div class="slider">
 											<h2>Coming Soon</h2>
-											<h3>APP</h3>
+											<h3>...</h3>
 										</div>
 									</div>
 									<div id='cube-2' class="col-sm-3 cube cube-red ">
@@ -95,7 +96,7 @@
 										</div>
 										<div class="slider">
 											<h2>Coming Soon</h2>
-											<h3>APP</h3>
+											<h3>...</h3>
 										</div>
 									</div>
 									<div id='cube-3' class="col-sm-3 cube cube-green ">
@@ -104,7 +105,7 @@
 										</div>
 										<div class="slider">
 											<h2>Coming Soon</h2>
-											<h3>APP</h3>
+											<h3>...</h3>
 										</div>
 									</div>
 									<div id='cube-4' class="col-sm-3 cube cube-red ">
@@ -113,7 +114,7 @@
 										</div>
 										<div class="slider">
 											<h2>Coming Soon</h2>
-											<h3>APP</h3>
+											<h3>...</h3>
 										</div>
 									</div>
 								</div>
@@ -124,7 +125,7 @@
 										</div>
 										<div class="slider">
 											<h2>Coming Soon</h2>
-											<h3>APP</h3>
+											<h3>...</h3>
 										</div>
 									</div>
 									<div id='cube-6' class="col-sm-3 cube cube-green ">
@@ -133,7 +134,7 @@
 										</div>
 										<div class="slider">
 											<h2>Coming Soon</h2>
-											<h3>APP</h3>
+											<h3>...</h3>
 										</div>
 									</div>
 									<div id='cube-7' class="col-sm-3 cube cube-red ">
@@ -142,7 +143,7 @@
 										</div>
 										<div class="slider">
 											<h2>Coming Soon</h2>
-											<h3>APP</h3>
+											<h3>...</h3>
 										</div>
 									</div>
 									<div id='cube-8' class="col-sm-3 cube cube-green ">
@@ -151,7 +152,7 @@
 										</div>
 										<div class="slider">
 											<h2>Coming Soon</h2>
-											<h3>APP</h3>
+											<h3>...</h3>
 										</div>
 									</div>
 								</div>
@@ -195,8 +196,8 @@
 									</div>
 									<div class="col-sm-4 text-sec">
 										<div class="text-area">
-											<h1>FIND ME A KITTY</h1>
-											<h3>APP</h3>
+											<h1>TITLE</h1>
+											<h3>CLASSIFICATION</h3>
 											<span class='line'></span>
 										</div>
 									</div>
@@ -241,8 +242,8 @@
 									</div>
 									<div class="col-sm-4 text-sec">
 										<div class="text-area">
-											<h1>FIND ME A KITTY</h1>
-											<h3>APP</h3>
+											<h1>TITLE</h1>
+											<h3>CLASSIFICATION</h3>
 											<span class='line'></span>
 										</div>
 									</div>
@@ -287,8 +288,8 @@
 									</div>
 									<div class="col-sm-4 text-sec">
 										<div class="text-area">
-											<h1>FIND ME A KITTY</h1>
-											<h3>APP</h3>
+											<h1>TITLE</h1>
+											<h3>CLASSIFICATION</h3>
 											<span class='line'></span>
 										</div>
 									</div>
@@ -333,8 +334,8 @@
 									</div>
 									<div class="col-sm-4 text-sec">
 										<div class="text-area">
-											<h1>FIND ME A KITTY</h1>
-											<h3>APP</h3>
+											<h1>TITLE</h1>
+											<h3>CLASSIFICATION</h3>
 											<span class='line'></span>
 										</div>
 									</div>
@@ -379,8 +380,8 @@
 									</div>
 									<div class="col-sm-4 text-sec">
 										<div class="text-area">
-											<h1>FIND ME A KITTY</h1>
-											<h3>APP</h3>
+											<h1>TITLE</h1>
+											<h3>CLASSIFICATION</h3>
 											<span class='line'></span>
 										</div>
 									</div>
@@ -425,8 +426,8 @@
 									</div>
 									<div class="col-sm-4 text-sec">
 										<div class="text-area">
-											<h1>FIND ME A KITTY</h1>
-											<h3>APP</h3>
+											<h1>TITLE</h1>
+											<h3>CLASSIFICATION</h3>
 											<span class='line'></span>
 										</div>
 									</div>
@@ -471,8 +472,8 @@
 									</div>
 									<div class="col-sm-4 text-sec">
 										<div class="text-area">
-											<h1>FIND ME A KITTY</h1>
-											<h3>APP</h3>
+											<h1>TITLE</h1>
+											<h3>CLASSIFICATION</h3>
 											<span class='line'></span>
 										</div>
 									</div>
@@ -517,8 +518,8 @@
 									</div>
 									<div class="col-sm-4 text-sec">
 										<div class="text-area">
-											<h1>FIND ME A KITTY</h1>
-											<h3>APP</h3>
+											<h1>TITLE</h1>
+											<h3>CLASSIFICATION</h3>
 											<span class='line'></span>
 										</div>
 									</div>
@@ -527,38 +528,118 @@
 						</div>
 							
 					</div>
-
+		
 					<div class="services">
-						<h1>SERVICES</h1>
+						<h1 id='services'>SERVICES</h1>
 						<span class="underline"></span>
-						<br><br><br>
-						<div class="container">
-							<div class="row">
-							<div class="col-sm-2">
-								<img src="/img/services/1.png" alt="" class='service-image'>
+						<br><br><br><br>
+						<div class="container" class='service-container'>
+
+						<!--<div class="row" class='service-row'>
+							<div class="col-sm-6" class='service-sec'>
+								<div class="row">
+									<div class="col-sm-3">
+										<img src="/img/services/1.png" alt="" class='service-image'>
+										<h3>BRANDING</h3>
+									</div>
+									<div class="col-sm-9">
+										<p>
+											A company brand is about building cohesion within your workplace and establishing a strong sense of identity and philosophy. It’s about being easily recognizable for both new and established customers. We create fresh and powerful imagery so you can bring in new clients and maintain confidence with old ones. We can provide a cohesive set of branded products that will reflect your individuality.
+										</p>
+									</div>	
+								</div>
 							</div>
-							<div class="col-sm-2">
-								<img src="/img/services/2.png" alt="" class='service-image'>
-							</div>
-							<div class="col-sm-2">
-								<img src="/img/services/3.png" alt="" class='service-image'>
-							</div>
-							<div class="col-sm-2">
-								<img src="/img/services/4.png" alt="" class='service-image'>
-							</div>
-							<div class="col-sm-2">
-								<img src="/img/services/5.png" alt="" class='service-image'>
-							</div>
-							<div class="col-sm-2">
-								<img src="/img/services/6.png" alt="" class='service-image'>
+							<div class="col-sm-6" class='service-sec'>
+								<div class="row">
+									<div class="col-sm-3">
+										<img src="/img/services/4.png" alt="" class='service-image'>
+										<h3>PRINT DESIGN</h3>
+									</div>
+									<div class="col-sm-9">
+
+									</div>	
+								</div>
 							</div>
 						</div>
+						<br><br>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="row">
+									<div class="col-sm-3">
+										<img src="/img/services/2.png" alt="" class='service-image'>
+										<h3>WEB DESIGN</h3>
+									</div>
+									<div class="col-sm-9">
+
+									</div>	
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="row">
+									<div class="col-sm-3">
+										<img src="/img/services/5.png" alt="" class='service-image'>
+										<h3>ILLUSTRATION</h3>
+									</div>
+									<div class="col-sm-9">
+
+									</div>	
+								</div>
+							</div>
+						</div>
+						<br><br>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="row">
+									<div class="col-sm-3">
+										<img src="/img/services/3.png" alt="" class='service-image'>
+										<h3>PACKAGE DESIGN</h3>
+									</div>
+									<div class="col-sm-9">
+
+									</div>	
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="row">
+									<div class="col-sm-3">
+										<img src="/img/services/6.png" alt="" class='service-image'>
+										<h3>DEVELOPMENT</h3>
+									</div>
+									<div class="col-sm-9">
+
+									</div>	
+								</div>
+							</div>
 						</div>
 
+						
+						</div>-->
+
+						<div class="row">
+							<div class="col-sm-2"><img src="/img/services/1.png" alt="" class='service-image'><h3>BRANDING</h3></div>
+							<div class="col-sm-2"><img src="/img/services/2.png" alt="" class='service-image'><h3>PRINT DESIGN</h3></div>
+							<div class="col-sm-2"><img src="/img/services/3.png" alt="" class='service-image'><h3>WEB DESIGN</h3></div>
+							<div class="col-sm-2"><img src="/img/services/4.png" alt="" class='service-image'><h3>ILLUSTRATION</h3></div>
+							<div class="col-sm-2"><img src="/img/services/5.png" alt="" class='service-image'><h3>PACKAGE DESIGN</h3></div>
+							<div class="col-sm-2"><img src="/img/services/6.png" alt="" class='service-image'><h3>DEVELOPMENT</h3></div>
+						</div>
+					
+						<br><br>
 					</div>
 				</div>
 
+				<div class="contact">
+						<h1 id='contact-us'>CONTACT US</h1>
+						<span class="underline"></span>
+						<br><br><br><br>
+						<img src="/img/mail-icon.png" alt="Contact Email">
+						<p>info@fuelcreativestudio.com</p>
+						<br><br><br><br><br><br>
+				</div>
 
+				<div class="footer">
+					<p>2015 © All Rights Reserved - FUEL CREATIVE STUDIO</p>
+				</div>
 			</div>
 
 		</div>

@@ -85,6 +85,8 @@ body {
       padding: 30px;
       font-family: "sofia-pro", Lato;
       color: #666666; }
+    .nav ul li:hover {
+      cursor: pointer; }
     .nav ul .seperate {
       margin-left: 160px; }
 
@@ -355,16 +357,58 @@ body {
   position: relative;
   display: inline-block;
   z-index: 99;
-  top: 100;
+  top: 120;
   left: 50;
-  opacity: 0; }
+  opacity: 0;
+  font-size: 25px;
+  color: #F6851F; }
 
 .services {
-  margin-top: 100px;
+  margin-top: 160px;
   text-align: center; }
+  @media (max-width: 800px) {
+    .services .service-image {
+      width: 50% !important;
+      padding-top: 30px; } }
   .services .service-image {
-    width: 70%;
-    text-align: center; }
+    width: 90%;
+    text-align: center;
+    transition: all 0.3s ease-in; }
+  .services .service-image:hover {
+    transform: translateY(-20px); }
+  .services h3 {
+    padding: 30px 0 0 0;
+    margin: 0 0 0 0;
+    font-weight: 500;
+    font-family: "sofia-pro", Lato;
+    font-size: 16px; }
+  .services p {
+    text-align: justify;
+    width: 90%; }
+
+.contact {
+  width: 100%;
+  margin-top: 120px;
+  position: relative;
+  text-align: center; }
+  .contact img {
+    display: inline;
+    width: 30px;
+    margin-right: 20px; }
+  .contact p {
+    font-family: "sofia-pro", Lato;
+    display: inline;
+    font-weight: 300;
+    font-size: 20px; }
+
+.footer {
+  background-color: #202020;
+  height: 100px;
+  color: #f7f7f7;
+  font-weight: 300;
+  font-family: "sofia-pro", Lato;
+  text-align: center;
+  padding-top: 40px; }
 
 * {
   box-sizing: border-box; }
