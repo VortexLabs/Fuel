@@ -179,11 +179,11 @@ body {
   z-index: 10; }
 
 .grid {
-  margin-top: 50px;
   z-index: 10; }
   .grid .cube {
     transition: opacity 0.5s ease-in;
-    height: 270px;
+    height: calc(100% / 4);
+    width: calc(100% / 4);
     opacity: 0;
     overflow: hidden;
     padding: 0;
@@ -262,7 +262,7 @@ body {
   .grid .cube:hover .overlay {
     opacity: 0.3; }
   .grid #cube-1 {
-    background-image: url("/img/port/1.jpg");
+    background-image: url("/img/port/rentzrey/1.jpg");
     background-size: cover; }
   .grid #cube-2 {
     background-image: url("/img/port/2.jpg");

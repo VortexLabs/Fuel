@@ -24,7 +24,24 @@ window.onload = function(){
 	var waypoint = new Waypoint({
 	  element: document.getElementById('port'),
 	  handler: StartAnimation
-	})
+	});
+
+	var width = window.innerWidth;
+	var element = document.getElementsByClassName("cube");
+
+
+	for(var i = 0; i < element.length; i++){
+		element[i].style.width= (width/4)+"px";
+		element[i].style.height= (width/4)+"px";
+		console.log("hello");
+	}
+
+	var height = (width/4) * 2;
+	var projects = document.getElementsByClassName ("project");
+
+	for(var i = 0; i < projects.length; i++){
+		projects[i].style.height = height;
+	}
 
 	window.onscroll = function(){
 		var windowHeight = window.pageYOffset;
